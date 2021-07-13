@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ body{
+     padding: 0;
+     margin: 0;
+ }
+.App{
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
+.inputs{
+    height:400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    background-color: rgb(73, 190, 151);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+}
+.inputs input{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px;
+    padding-left: 10px;
+     
+}
+.listOfFriends{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.friendContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.friend{
+    width:400px;
+    height: 60px;
+    background-color: cadetblue;
+
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 10px;
+
+}
+.friend h3{
+    margin-left: 15px;
+
+}
+.friendContainer button{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
 }
